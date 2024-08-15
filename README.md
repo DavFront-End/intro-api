@@ -20,11 +20,11 @@ Quando nós conseguimos transferir o estado da nossa aplicação, seja da requis
 # Oque é uma SPA ?
 
 * SPA significa Single Page Application;
-* É quando a aplicação possui um front-end separado do back-end
+* É quando a aplicação possui um front-end separado do back-end;
 * Ou seja, uma API para o back-end;
 * E um framework front-end JS, como: React, Vue, Angular;
 * Aplicações deste tipo estão dominando o mercado;
-* A arquitetura anteriomente utilizada é conhecida como Monolith onde tem o front-end, back-end, banco de dados tudo em uma única estrutura
+* A arquitetura anteriomente utilizada é conhecida como Monolith onde tem o front-end, back-end, banco de dados tudo em uma única estrutura;
 
 # Verbos HTTP
 
@@ -33,3 +33,8 @@ Quando nós conseguimos transferir o estado da nossa aplicação, seja da requis
 * Cada um representa uma ação na API, ou seja, são essenciais;
 * É muito importante que as nossas funcionalidades usem os métodos corretos;
 * Enviamos o método através da requisição;
+* GET: Pegar dados;
+* POST: Enviar dados;
+* PUT: Atualização completa dos dados;
+* PATCH: Atualização parcial dos dados;
+* DELETE: Remove dados do banco;
