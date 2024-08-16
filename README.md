@@ -38,3 +38,47 @@ Quando nós conseguimos transferir o estado da nossa aplicação, seja da requis
 * PUT: Atualização completa dos dados;
 * PATCH: Atualização parcial dos dados;
 * DELETE: Remove dados do banco;
+
+# Criando uma API com Express
+
+* Para criar a API teremos uma tarefa bem simples, comparada a estrutura com Handlebars;
+* Basta instalar o Express, ele fará tudo sozinho neste ponto;
+* Depois criaremos uma rota que responde em JSON, este é o dado de comunicação entre aplicação e API;
+* É importante definir o verbo correto, como GET ou POST, por ex;
+* Vamos ver na prática!
+
+# Conhecendo o Postman
+
+* O Postman é um client para testes de API;
+* Podemos então criar o back-end antes ou separado do front só com a ajuda deste software;
+* Como você deve imaginar, é fundamental quando estamos criando APIs;
+* Podemos simular verbos, corpo de requisição, inserir headers, tudo que é possivel com uma aplicação web;
+
+# Testando rota com Postman
+
+* Para acessar uma rota com o Postman precisamos configurar o client;
+* Devemos inserir o verbo correto para a rota;
+* E também configurar o endpoint, que é da URL onde nossa rota foi estabelecida;
+* Enviando a requisição, receberemos a resposta
+ 
+# Criando uma rota de POST
+
+* Para criar a rota de POST vamos utilizar o método post do Express;
+* Podemos extrair os dados da requisição, acessando o req.body;
+* Da mesma maneira que no get, podemos retornar uma resposta como JSON pela API;
+
+* O método POST é mudar o verbo e inserir dados no body;
+
+ # Adicionando status na resposta
+
+ * Os status podem ajudar no desenvolvimento da nossa aplicação;
+ * Exibindo mensagens de sucesso ou erro, por exemplo;
+ * Precissamos entre res e o método json definir um número de status HTTP;
+ * Isso é feito por meio do método status;
+
+ # A realidade sobre as APIs...
+
+ * A API é desenvolvida de forma muito semelhante a quando criamos projetos com Handlebars, por exemplo;
+ * Temos algumas alterações leves, com: resposta apenas por JSON;
+ * Mas isso acaba até simplificando as coisa, separando as responsabilidades;
+ * Ou seja, reaproveitamos todo o conhecimento visto durante o curso;

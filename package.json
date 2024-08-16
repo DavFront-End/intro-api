@@ -1,0 +1,25 @@
+{
+  "name": "intro-api",
+  "version": "1.0.0",
+  "description": "* API é um acrônimo para Interface de Progamação de Aplicações (Application Programming Interface);\r * Uma forma simples de comunicação entre aplicações;\r * Não necessita de telas, respostas geralmente são em JSON;\r * Independente do front-end, a API não possui ligação com o front;\r * Baseadas em requisição e resposta;\r * Podemos criar uma API com Express!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js localhost 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavFront-End/intro-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavFront-End/intro-api/issues"
+  },
+  "homepage": "https://github.com/DavFront-End/intro-api#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4"
+  }
+}
